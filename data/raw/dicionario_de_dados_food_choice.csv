@@ -1,0 +1,61 @@
+Variável,Tipo,Descrição,Codificação/Categorias
+GPA,Numérico,Nota média do aluno (Grade Point Average),"Valor contínuo (ex: 3.5, 4.0)"
+Gender,Categórico,Gênero do participante,"1 = Feminino, 2 = Masculino"
+Breakfast,Categórico,"Associação visual com ""café da manhã""","1 = Cereal, 2 = Donut"
+calories_chicken,Numérico,Palpite de calorias em um prato de frango,"265, 430, 610, 720 (valores reais)"
+calories_day,Ordinal,Importância de contar calorias diárias,"1 = Não sei, 2 = Nada importante, 3 = Moderadamente, 4 = Muito importante"
+calories_scone,Numérico,Palpite de calorias em um scone,"107, 315, 420, 980 (valores reais)"
+coffee,Categórico,"Associação visual com ""café""","1 = Frappuccino, 2 = Espresso"
+comfort_food,Texto,Lista de 3-5 alimentos de conforto,Respostas abertas (NLP)
+comfort_food_reasons,Texto,Motivos para comer alimentos de conforto,Respostas abertas (NLP)
+comfort_food_reasons_coded,Categórico,Motivo principal codificado,"1 = Estresse, 2 = Tédio, 3 = Tristeza, 4 = Fome, 5 = Preguiça, 6 = Frio, 7 = Felicidade, 8 = Assistir TV, 9 = Nenhum"
+cook,Ordinal,Frequência de cozinhar,"1 = Todo dia, 2 = Algumas vezes/semana, 3 = Raramente, 4 = Só em feriados, 5 = Nunca"
+cuisine,Categórico,Tipo de culinária na infância,"1 = Americana, 2 = Mexicana/Espanhola, 3 = Coreana/Asiática, 4 = Indiana, 5 = Internacional, 6 = Outra"
+diet_current,Texto,Descrição da dieta atual,Respostas abertas (NLP)
+diet_current_coded,Categórico,Dieta atual codificada,"1 = Saudável, 2 = Não saudável, 3 = Repetitiva, 4 = Inconclusivo"
+drink,Categórico,"Associação visual com ""bebida""","1 = Suco de laranja, 2 = Refrigerante"
+eating_changes,Texto,Mudanças alimentares na faculdade,Respostas abertas (NLP)
+eating_changes_coded,Categórico,Mudanças codificadas (geral),"1 = Pior, 2 = Melhor, 3 = Igual, 4 = Inconclusivo"
+eating_changes_coded1,Categórico,Mudanças específicas,"1 = Come mais rápido, 2 = Maior quantidade, 3 = Pior qualidade, 4 = Mesma comida, 5 = Mais saudável, etc."
+eating_out,Ordinal,Frequência de comer fora/semana,"1 = Nunca, 2 = 1-2x, 3 = 2-3x, 4 = 3-5x, 5 = Todo dia"
+employment,Categórico,Situação de emprego,"1 = Tempo integral, 2 = Meio período, 3 = Não trabalha, 4 = Outro"
+ethnic_food,Ordinal,Probabilidade de comer comida étnica,"1 = Muito improvável, 5 = Muito provável"
+exercise,Ordinal,Frequência de exercícios/semana,"1 = Todo dia, 2 = 2-3x/semana, 3 = 1x/semana, 4 = Às vezes, 5 = Nunca"
+father_education,Ordinal,Escolaridade do pai,"1 = Fundamental, 2 = Médio, 3 = Superior incompleto, 4 = Superior completo, 5 = Pós-graduação"
+father_profession,Texto,Profissão do pai,Respostas abertas
+fav_cuisine,Texto,Culinária favorita,Respostas abertas (NLP)
+fav_cuisine_coded,Categórico,Culinária favorita codificada,"0 = Nenhuma, 1 = Italiana/Francesa, 2 = Mexicana, etc."
+fav_food,Categórico,Origem do alimento favorito,"1 = Caseiro, 2 = Comprado, 3 = Ambos"
+food_childhood,Texto,Comida favorita na infância,Respostas abertas
+fries,Categórico,"Associação visual com ""fritas""","1 = McDonald's, 2 = Caseiras"
+fruit_day,Ordinal,Consumo diário de frutas,"1 = Muito improvável, 5 = Muito provável"
+grade_level,Ordinal,Ano na faculdade,"1 = Calouro, 2 = Segundo ano, 3 = Terceiro ano, 4 = Formando"
+greek_food,Ordinal,Probabilidade de comer comida grega,"1 = Muito improvável, 5 = Muito provável"
+healthy_feel,Escala (1-10),"Concordância com ""Sinto-me saudável""","1 = Concordo totalmente, 10 = Discordo totalmente"
+healthy_meal,Texto,"Definição de ""refeição saudável""",Respostas abertas (NLP)
+ideal_diet,Texto,Descrição da dieta ideal,Respostas abertas (NLP)
+ideal_diet_coded,Categórico,Dieta ideal codificada,"1 = Controle de porções, 2 = Mais vegetais, etc."
+income,Ordinal,Faixa de renda familiar,"1 = < 15k,‘2‘=15k-30k,...,‘6‘=>100k"
+indian_food,Ordinal,Probabilidade de comer comida indiana,"1 = Muito improvável, 5 = Muito provável"
+Italian_food,Ordinal,Probabilidade de comer comida italiana,"1 = Muito improvável, 5 = Muito provável"
+life_rewarding,Escala (1-10),"Concordância com ""A vida é gratificante""","1 = Concordo totalmente, 10 = Discordo totalmente"
+marital_status,Categórico,Estado civil,"1 = Solteiro, 2 = Namorando, 3 = União estável, etc."
+meals_dinner_friend,Texto,Prato servido a um amigo,Respostas abertas (NLP)
+mothers_education,Ordinal,Escolaridade da mãe,Mesma codificação que father_education
+mothers_profession,Texto,Profissão da mãe,Respostas abertas
+nutritional_check,Ordinal,Frequência de verificar valores nutricionais,"1 = Nunca, 5 = Sempre"
+on_off_campus,Categórico,Moradia,"1 = No campus, 2 = Aluguel fora, 3 = Com os pais, 4 = Casa própria"
+parents_cook,Ordinal,Dias/semana que os pais cozinhavam,"1 = Quase todo dia, 5 = Nunca"
+pay_meal_out,Ordinal,Valor pago em refeição fora,"1 = ≤ 5,‘2‘=5-10,...,‘6‘=>40"
+Persian_food,Ordinal,Probabilidade de comer comida persa,"1 = Muito improvável, 5 = Muito provável"
+self_perception_weight,Ordinal,Autopercepção de peso,"1 = Magro, 3 = Adequado, 5 = Acima do peso, 6 = Não pensa nisso"
+soup,Categórico,"Associação visual com ""sopa""","1 = Sopa de legumes, 2 = Sopa cremosa"
+sports,Categórico,Prática de esportes,"1 = Sim, 2 = Não, 99 = Sem resposta"
+thai_food,Ordinal,Probabilidade de comer comida tailandesa,"1 = Muito improvável, 5 = Muito provável"
+tortilla_calories,Numérico,Palpite de calorias em burrito,"580, 725, 940, 1165 (valores reais)"
+turkey_calories,Numérico,Palpite de calorias em sanduíche de peru,"345, 500, 690, 850 (valores reais)"
+type_sports,Texto,Tipo de esporte praticado,Respostas abertas
+veggies_day,Ordinal,Consumo diário de vegetais,"1 = Muito improvável, 5 = Muito provável"
+vitamins,Categórico,Uso de vitaminas/suplementos,"1 = Sim, 2 = Não"
+waffle_calories,Numérico,Palpite de calorias em waffle,"575, 760, 900, 1315 (valores reais)"
+weight,Numérico,Peso em libras (lbs),Valor contínuo
